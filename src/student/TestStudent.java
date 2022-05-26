@@ -18,6 +18,7 @@ public class TestStudent {
      details[1]=new Student("Karan",20);
      details[2]=new Student("Taniya",22);
 
+     System.out.println("The student list");
      for(int i=0;i<details.length;i++){
          System.out.println(details[i].toString());}
     }
